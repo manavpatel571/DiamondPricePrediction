@@ -1,0 +1,7 @@
+pandas
+numpy
+flask
+seaborn
+scikit-learn
+
+# -e . trigger setup.py
