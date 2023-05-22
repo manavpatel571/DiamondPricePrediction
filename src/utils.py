@@ -43,7 +43,6 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
 
     except Exception as e:
         logging.info('Exception occured during model training')
-<<<<<<< HEAD
         raise CustomException(e,sys)
     
 def load_object(file_path):
@@ -53,7 +52,3 @@ def load_object(file_path):
     except Exception as e:
         logging.info('Exception occured during load_object function in utils')
         raise CustomException(e,sys)
-    
-=======
-        raise CustomException(e,sys)
->>>>>>> 0e35abaf4e6a6fabd7ecff6f5d7c326693235ced
